@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <!-- Responsive Navbar with "About" highlighted -->
+  <nav class="bg-blue-500 p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="/" class="text-2xl text-white font-bold">Lego Collection</a>
+      <div class="space-x-4">
+        <a href="/about" class="active text-white">About</a>
+        <div class="relative inline-block text-white">
+          <span class="cursor-pointer">Theme</span>
+          <div class="absolute hidden bg-white w-40 mt-2 p-2 space-y-2 border rounded-lg">
+            <a href="https://www.lego.com/en-us/themes/architecture">Some Theme</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto">
+    <!-- Hero Section -->
+    <div class="mt-8">
+      <div class="text-4xl font-bold mb-4">About</div>
+      <p class="text-xl text-gray-600">About section...</p>
+    </div>
+
+    <!-- Responsive Grid System -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+      <!-- Left Column: Image -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://i.kinja-img.com/gawker-media/image/upload/t_original/z5tvmbz6nivjiaus28d5.jpg" alt="You" class="w-full h-40 object-cover rounded-t-lg">
+      </div>
+
+      <!-- Right Column: Blurb -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="text-2xl font-bold">Hello, I'm Prisha</div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
